@@ -3,6 +3,16 @@
 
 ## 基本指令
 
+#### unstage已經提交的檔案
+```bash
+git reset HEAD filename
+```
+
+#### 捨棄還沒stage的檔案當前的改變
+```bash
+git checkout -- filename
+```
+
 #### 修改還沒push到遠端的commit message
 ```bash
 git commit --amend
