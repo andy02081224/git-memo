@@ -3,6 +3,13 @@
 
 ## 基本指令
 
+#### 在一台電腦上第一次設定git時，需要先設定使用者名稱以及電子郵件帳號 (將上--global使之成為全域設定，讓之後相關操作皆會採用此次設定不須再重複輸入)
+```bash
+git config --global user.name "username"
+git config --global user.email "username@example.com"
+```
+
+
 #### unstage已經提交的檔案
 ```bash
 git reset HEAD filename
