@@ -14,12 +14,12 @@ git config --global user.email "username@example.com"
 
 ##### unstage已經提交的檔案
 ```bash
-git reset HEAD filename
+git reset HEAD [file-name]
 ```
 
 ##### 捨棄還沒stage的檔案當前的改變
 ```bash
-git checkout -- filename
+git checkout -- [file-name]
 ```
 
 ##### 修改還沒push到遠端的commit message
