@@ -71,7 +71,7 @@ git push -u [remote-name] [local-branch-name]:[remote-branch-name]
 git branch -vv
 # 輸出會類似: master 5d7c182 [origin/master] Initial commit
 # 當本地分支已經成功追蹤遠端分支，會將追蹤的遠端分支顯示在commit hash與commit message之間，在這邊就是[origin/master]
-# 在git 1.8.3之後遠端分支預設會以藍色字體強調
+# 在git 1.8.3之後追蹤的遠端分支預設會以藍色字體強調
 ```
 
 
