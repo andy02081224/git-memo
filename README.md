@@ -74,6 +74,8 @@ git branch -vv
 # 在git 1.8.3之後追蹤的遠端分支預設會以藍色字體強調
 ```
 
+### Rebase
+[Git-rebase 小筆記](https://blog.yorkxin.org/2011/07/29/git-rebase) ⬅ 講的超好，大推
 
 ## GitHub使用
 
