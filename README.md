@@ -61,6 +61,11 @@ git checkout [branch-name]
 ```bash
 git checkout -d [branch-name]
 ```
+##### 刪除遠端分支
+```bash
+git push [remote-name] :[branch-name]
+```
+
 ##### 列出所有本地分支
 ```bash
 git branch
