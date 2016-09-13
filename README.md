@@ -77,6 +77,23 @@ git branch -vv
 ### Rebase
 [Git-rebase 小筆記](https://blog.yorkxin.org/2011/07/29/git-rebase) ⬅ 講的超好，大推
 
+### 查看Difference
+題外話: 預設的git diff介面其實不是很直覺，可以考慮安裝[diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)來讓他美麗一點
+
+##### 顯示當前的工作目錄中還沒加入staged area的更改 (已經改動但是還沒加入staged area的檔案的變動)
+```bash
+git diff
+```
+##### 顯示在staged area的檔案與上一次commit (HEAD)之間的差別
+```bash
+git diff --cached
+```
+
+##### 顯示當前的工作目錄與上一次commit (HEAD)之間的差別
+```bash
+git diff HEAD
+```
+
 ## GitHub使用
 
 ##### 在commit message關掉issue
