@@ -94,6 +94,13 @@ git diff --cached
 git diff HEAD
 ```
 
+## GUI工具
+
+##### SourceTree
+- 免費工具，功能強大
+- 內建支援git-flow
+
+
 ## GitHub使用
 
 ##### 在commit message關掉issue
