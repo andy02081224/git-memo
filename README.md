@@ -59,7 +59,7 @@ git checkout [branch-name]
 
 ##### 刪除分支
 ```bash
-git checkout -d [branch-name]
+git branch -d [branch-name]
 ```
 ##### 刪除遠端分支
 ```bash
