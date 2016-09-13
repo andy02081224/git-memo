@@ -108,6 +108,11 @@ git diff --cached
 ```bash
 git diff HEAD
 ```
+## 工具
+
+##### SourceTree
+- 免費GUI工具，功能強大
+- 內建支援git-flow
 
 ## GitHub使用
 
