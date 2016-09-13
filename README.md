@@ -10,16 +10,31 @@
 git config --global user.name "username"
 git config --global user.email "username@example.com"
 ```
-### 檔案提交
+### 檔案操作
 
-##### unstage已經提交的檔案
+##### 將當前工作目錄中沒被ignore的新檔案以及已追蹤且修改的檔案加入staged area（不包含被移除的檔案）
 ```bash
-git reset HEAD [file-name]
+git add .
 ```
 
-##### 捨棄還沒stage的檔案當前的改變
+##### 將當前工作目錄中已經被追蹤且沒被ignore的已修改檔案加入staged area（不包含新檔案、包含被移除的檔案）
+```bash
+git add -u
+```
+
+##### `git add.` + `git add -u`
+```bash
+git add -A
+```
+
+##### 捨棄還沒staged的檔案當前的改變
 ```bash
 git checkout -- [file-name]
+```
+
+##### unstage檔案
+```bash
+git reset HEAD [file-name]
 ```
 
 ##### 修改還沒push到遠端的commit message
@@ -93,13 +108,6 @@ git diff --cached
 ```bash
 git diff HEAD
 ```
-
-## GUI工具
-
-##### SourceTree
-- 免費工具，功能強大
-- 內建支援git-flow
-
 
 ## GitHub使用
 
