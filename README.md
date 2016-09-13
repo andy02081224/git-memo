@@ -113,6 +113,17 @@ git diff --cached
 ```bash
 git diff HEAD
 ```
+## 排解Conflicts
+##### Conflict Markers
+```
+<<<<<<< HEAD:someFile.js
+console.log('blahblah'); // 目前HEAD衝突部分的內容
+=======
+console.error('blahblah') // 衝突版本衝突部分的的內容
+>>>>>>> commit message:someFile.js
+
+```
+
 ## 工具
 
 ##### SourceTree
