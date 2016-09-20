@@ -97,6 +97,33 @@ git branch -vv
 ### Rebase
 [Git-rebase 小筆記](https://blog.yorkxin.org/2011/07/29/git-rebase) ⬅ 講的超好，大推
 
+### Tag
+
+##### 新增tag到HEAD
+```bash
+git tag -a v0.1 -m 'Some message' # 如果省略message的部分，git會自動啟動一個編輯器讓你輸入
+```
+
+##### 新增tag到特定的commit
+```bash
+git tag -a v0.1 [SHA1]
+```
+
+##### 新增tag到特定的branch head
+```bash
+git tag -a v0.1 [branch-name]
+```
+
+##### 將指定tag push到remote
+```bash
+git push origin [tag-name]
+```
+
+##### 將所有tag push到remote
+```bash
+git push origin --tags
+```
+
 ### 查看Difference
 題外話: 預設的git diff介面其實不是很直覺，可以考慮安裝[diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)來讓他美麗一點
 
