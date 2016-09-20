@@ -114,6 +114,16 @@ git tag -a v0.1 [SHA1]
 git tag -a v0.1 [branch-name]
 ```
 
+##### 列出所有tags
+```bash
+git tag
+```
+
+##### 列出指定tag的資訊
+```bash
+git show [tag-name]
+```
+
 ##### 將指定tag push到remote
 ```bash
 git push origin [tag-name]
