@@ -94,6 +94,11 @@ git branch -vv
 # 在git 1.8.3之後追蹤的遠端分支預設會以藍色字體強調
 ```
 
+##### 讓當前分枝取消追蹤遠端分枝
+```bash
+git branch --unset-upstream
+```
+
 ### Rebase
 [Git-rebase 小筆記](https://blog.yorkxin.org/2011/07/29/git-rebase) ⬅ 講的超好，大推
 
