@@ -119,6 +119,11 @@ git tag -a v0.1 [branch-name]
 git tag
 ```
 
+##### 刪除tag
+```bash
+git tag -d [tag-name]
+```
+
 ##### 列出指定tag的資訊
 ```bash
 git show [tag-name]
