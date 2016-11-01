@@ -52,6 +52,19 @@ git commit --amend
 git branch [branch-name]
 ```
 
+##### 創建追蹤遠端分支之本地分支
+```bash
+git checkout -b [local-branch-name] [remote-branch-name]
+```
+
+##### 重新命名分支
+```bash
+git branch -m [old-branch-name] [new-branch-name]
+
+# 如果重新命名的為當前分支，上述指令可簡化成
+git branch -m [new-branch-name]
+```
+
 ##### 切換分支
 ```bash
 git checkout [branch-name]
