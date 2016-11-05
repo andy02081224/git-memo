@@ -37,6 +37,16 @@ git checkout -- [file-name]
 git reset HEAD [file-name]
 ```
 
+##### untrack特定檔案 (Remove it from cache)
+```bash
+git rm --cached [file-name]
+```
+
+##### untrack所有檔案 
+```bash
+git rm --cached -r .
+```
+
 ##### 修改還沒push到遠端的commit message
 ```bash
 git commit --amend
