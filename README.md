@@ -55,6 +55,21 @@ git commit --amend
 ##### 修改已經push到遠端的commit message
 參考[這裡](https://help.github.com/articles/changing-a-commit-message/#amending-older-or-multiple-commit-messages)
 
+##### 會到上一個版本（砍掉最新的commit），但是保留最新commit的修改
+```bash
+git reset HEAD^
+```
+
+##### 會到上一個版本（砍掉最新的commit），但是保留最新commit的修改，同時讓這些修改維持在staged狀態
+```bash
+git reset --soft HEAD^
+```
+
+##### 會到上一個版本（砍掉最新的commit），同時不保留這次最新commit的任何修改
+```bash
+git reset --hard HEAD^
+```
+
 ### 分支操作
 
 ##### 創建新分支
