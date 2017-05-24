@@ -10,6 +10,24 @@
 git config --global user.name "username"
 git config --global user.email "username@example.com"
 ```
+
+### Repo相關
+
+##### 指定要clone的branch
+```bash
+git clone -b [branchName] git://github.com/foo/bar.git
+```
+
+##### 將所有submodules一起clone下來
+```bash
+git clone --recursive git://github.com/foo/bar.git
+```
+
+##### 對已經clone的repo，clone所有包含在此repo中的submodules
+```bash
+git submodule update --init --recursive
+```
+
 ### 檔案操作
 
 ##### 將當前工作目錄中沒被ignore的新檔案以及已追蹤且修改的檔案加入staged area（不包含被移除的檔案）
